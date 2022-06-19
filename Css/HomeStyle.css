@@ -5,16 +5,11 @@
     margin: auto;
     padding-top: 57.5625px;
     padding-bottom: 57.5625px;
-}
-
-.navbar{
     background-color: white;
-    outline-color: white;
+    color: #333;
 }
 
-.navbar{
-    display: flex;
-}
+
 
 .navbar li a:hover{
     color:grey !important;
@@ -31,11 +26,9 @@ a img{
 .main-page{
     padding-left: 120px;
     padding-right: 120px;
-}
-
-.intro{
-    padding: 51px 221px;
-    justify-content: space-around;
+    position: relative;
+    top: 171px;
+    
 }
 
 .carousel-inner{
@@ -52,20 +45,4 @@ h1{
     font-family: Della Respira;
     letter-spacing: .01em;
     line-height: 1.3em;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar{
-        padding: 20px;
-        display: flex;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        bottom: 0;
-        box-sizing: border-box;
-        background-color: white;
-        z-index: 10099;
-        border-top: solid 1px #f0f0f0;
-    }
-    
 }
