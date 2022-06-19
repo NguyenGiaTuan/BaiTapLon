@@ -1,0 +1,52 @@
+header{
+    max-width: 100%;
+}
+
+.head{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: auto;
+    padding-top: 57.5625px;
+    padding-bottom: 57.5625px;
+}
+
+.navbar{
+    background-color: white;
+    outline-color: white;
+}
+
+.navbar li a:hover{
+    color: gray !important;
+}
+
+
+.logo img{
+    height: auto;
+    max-height: 55px;
+    width: auto;
+    max-width: 100%;
+   
+}
+
+.main-page{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.intro{
+    padding: 51px 221px;
+}
+
+.carousel-inner{
+    height: 800px;
+}
+
+
+
+h1{
+    font-size: 3.64583333vw;
+    font-family: Della Respira;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    padding: 31px 220px; 
+}
