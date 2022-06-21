@@ -1,0 +1,151 @@
+/* ========== INTRODUCE ========== */
+.introduce{
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 95px;
+}
+
+.intro-title {
+    font-size: 75px;
+    font-family: Della Respira;
+    font-weight: 400;
+    font-style: normal;
+    color: #222226;
+    margin-bottom: 70px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.intro-content {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+}
+/* ========== END INTRODUCE ========== */
+
+.main {
+    width: 1100px;
+    margin: 0 auto;
+    /*margin-top: 209px;*/
+    position: relative;
+    top: 140px;
+}
+
+.hr {
+    color: #f0f0f0;
+}
+
+.main-first {
+    padding-top: 70px;
+}
+
+.main-first-left {
+    padding-right: 65px;
+}
+
+.main-first-left h1 {
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #222226;
+    font-weight: 400;
+    font-family: Della Respira;
+    font-size: 70px;
+}
+
+.main-first-left .title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+}
+
+.main-first-left a {
+    color: #d1a400;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.main-first-left strong {
+    font-size: 13px;
+}
+
+.main-first-left span {
+    font-size: 13px;
+    line-height: 1.8em;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-first-right {
+    padding-left: 15px;
+}
+
+/* ========== PRODUCTS ========== */
+.products h3 {
+    font-family: Della Respira;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.address {
+    font-size: 13px;
+    line-height: 1.8em;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.website {
+    color: #d1a400;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.products .title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+}
+
+.products .name {
+    font-family: Della Respira;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #222226;
+}
+
+.products .item {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+/* ========== END PRODUCTS ========== */
+
