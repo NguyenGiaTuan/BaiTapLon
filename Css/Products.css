@@ -88,3 +88,29 @@
 
 /* ========== END PRODUCT ========== */
 
+@media screen and (max-width:600px) {
+   .navbar{
+        padding: 20px;
+        display: flex;
+        position: fixed;
+        z-index: 10099;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #fff;
+        border-top: solid 1px #f0f0f0;
+        bottom: 0;
+        left: 0;
+    }
+    /* .medias{
+        padding: 20px;
+        display: flex;
+        position: fixed;
+        z-index: 10099;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #fff;
+        border-top: solid 1px #f0f0f0;
+        bottom: 0;
+        left: 0;
+    }  */
+}
