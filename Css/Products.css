@@ -1,0 +1,90 @@
+/* ========== INTRODUCE ========== */
+.introduce {
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.introduce .intro-title {
+    font-size: 70px;
+    font-family: Della Respira;
+    font-weight: 400;
+    font-style: normal;
+    color: #222226;
+    margin-bottom: 70px;
+}
+
+.introduce .intro-content {
+    font-family: Della Respira;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    color: #d1a400;
+    font-size: 42px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.introduce .intro-author {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: rgba(209,164,0,.6);
+}
+/* ========== END INTRODUCE ========== */
+
+/* ========== PRODUCT ========== */
+.products {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.products .product .image img {
+    max-width: 100%;
+}
+
+.products .product .name {
+    font-weight: 600;
+    color: #bbb;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    margin: 17px 0;
+}
+
+
+.products .product .des {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+}
+
+.products .product .cta a {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #fff;
+    background-color: #d1a400;
+    border-color: #d1a400;
+    text-decoration: none;
+    padding: 13px 26px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 0 #a88400;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.products .product .cta a:hover {
+    background-color: #e0b000;
+}
+
+/* ========== END PRODUCT ========== */
+
