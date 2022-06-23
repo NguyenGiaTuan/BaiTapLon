@@ -59,12 +59,19 @@ h2{
     line-height: 1.3em;
 }
 
-.Mission{
+.Title{
     font-family: Montserrat;
     font-weight: 400;
 }
 
-.Mission1{
+.Title2{
+    font-family: Della Respira;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+}
+
+.Mission{
     font-size: 3.64583333vw;
     font-family: Della Respira;
     font-weight: 400;
@@ -124,6 +131,10 @@ h4{
     line-height: 1.5em;
 }
 
+h1{
+    font-family: Della Respira;
+}
+
 a.button{
     display: inline-block;
     text-decoration: none;
@@ -149,6 +160,7 @@ a.button:hover{
 
 .block1{
     position: relative;
+    top: -230px;
 }
 
 .imgs1{
@@ -158,15 +170,69 @@ a.button:hover{
 
 .card1{
     position: relative;
-    bottom: 590px;
+    bottom: 360px;
     left: 150px;
     border-radius: 8px;
-    height: 390px;
-    width: 560px;
+    height: 425px;
+    width: 565px;
     background-color: rgb(233, 231, 231);
-    color: #333;
+    color: #333; 
 }
 
+.container{
+    position: relative;
+    top: 39px;
+}
 
+a.button1{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #d1a400;
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 17px;
 
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .13em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
 
+a.button1:hover{
+    background-color: #a07e02;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.clips {
+    margin-top: 95px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+a.button2{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #d1a400;
+    width: 11%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 17px;
+
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .13em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+a.button2:hover{
+    background-color: #a07e02;
+    color: rgba(255, 255, 255, 0.774);
+}
+ 
