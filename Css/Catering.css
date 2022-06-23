@@ -1,0 +1,22 @@
+.text2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+}
+
+.labels{
+    background: #fafafa;
+    color: #000;
+}
+
+.button{
+   color: aqua;
+   background-color: aqua;
+}
