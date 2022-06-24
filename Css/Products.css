@@ -1,4 +1,4 @@
-/* ========== INTRODUCE ========== */
+/*--INTRODUCE--*/
 .introduce {
     width: 1100px;
     text-align: center;
@@ -30,9 +30,9 @@
     letter-spacing: 0px;
     color: rgba(209,164,0,.6);
 }
-/* ========== END INTRODUCE ========== */
+/*--END INTRODUCE-- */
 
-/* ========== PRODUCT ========== */
+/* -- PRODUCT-- */
 .products {
     width: 1100px;
     margin: 0 auto;
@@ -86,7 +86,7 @@
     background-color: #e0b000;
 }
 
-/* ========== END PRODUCT ========== */
+/*-- END PRODUCT-- */
 
 @media screen and (max-width:600px) {
    .navbar{
@@ -101,16 +101,5 @@
         bottom: 0;
         left: 0;
     }
-    /* .medias{
-        padding: 20px;
-        display: flex;
-        position: fixed;
-        z-index: 10099;
-        box-sizing: border-box;
-        width: 100%;
-        background-color: #fff;
-        border-top: solid 1px #f0f0f0;
-        bottom: 0;
-        left: 0;
-    }  */
+    
 }
