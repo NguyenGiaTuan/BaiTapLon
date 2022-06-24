@@ -19,7 +19,7 @@ a img{
     width: auto;
     max-width: 100%;
 }
-/* INTRODUCE  */
+/* INTRODUCE */
 .introduce{
     width: 1100px;
     text-align: center;
@@ -170,6 +170,29 @@ a img{
 .products .item {
     padding-left: 65px;
     padding-right: 65px;
+}
+/* ========== FOOTER ========== */
+.footer {
+    margin-top: 95px;
+    padding: 95px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: solid 1px #f0f0f0;
+}
+
+.footer .logo {
+    margin: 0 auto;
+    display: inherit;
+}
+
+.footer .copyright {
+    font-size: 13px;
+    text-align: center;
+    white-space: pre-wrap;
+    color: #bbb;
+    font-weight: 400;
+    font-family: Montserrat;
+    padding: 17px;
 }
 
 
