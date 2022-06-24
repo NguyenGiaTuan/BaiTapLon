@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pierre Thiam</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/HomeStyle.css">
+    <script src="Javascirpt/Catering.js"></script>
+</head>
+
+<body>
+    <header class="fixed-top">
+        <div class="head row">
+            <nav class="navbar col-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="HomeLayout.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="CateringLayout.html">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DiningLayout.html">Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ProductsLayout.html">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a class="d-flex logo col-6" href="HomeLayout.html" style="justify-content: center;">
+                <img src="Images/Pierre_Thiam_Group_Wrodmark_Transparent_GOLD.png" alt="">
+            </a>
+            <div class="medias col-3">
+
+            </div>
+    </header>
+    <div class="main-page">
+        <div class="intro container">
+            <div class="row intro">
+                <h1 class="text-center col-12" style="max-width: 100%;">
+                    Catering and Special Events
+                </h1>
+            </div>
+        </div>
+        <div class="img-page">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/Sara_Costa_pierre-thiam-cottonhouse_Mayo_19-151+(1).jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Sara_Costa_pierre-thiam-cottonhouse_Mayo_19-275.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/3.08_TERANGA_1929.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/1.18_TERANGA_MENU_552.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/PT+SH+8.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <hr style="height: 100px; margin-top: 120px;">
+            <div class="text container" style="padding-left: 120px; padding-right: 120px;">
+                <h2 class="text-center">Past catering clients include
+                    a king, a president, and Rihanna.</h2>
+                <h2 class="text-center">Want to be next?</h2>
+                <div class="text2" style="margin-top: 120px;">
+                    <p>Pierre Thiam Catering is recognized as the leader in bringing an African twist to catering events
+                        around the world. Their commitment to perfection and creativity, along with the team's
+                        professionalism and attention to details has won Pierre Thiam Catering many accolades.</p>
+                    <p>Pierre Thiam Catering brings passion to the table, using the best seasonal and local ingredients
+                        to
+                        re-create classic dishes as well as global ethnic flavors inspires their menus.</p>
+                    <p>The chefs take pride in preparing every dish from our kitchen and are happy to accommodate your
+                        menu
+                        wishes. Each menu is tailored to match the theme of any event.</p>
+                    <p>Pierre Thiam Catering offers the option of a full event design and planning service. From
+                        flowers,
+                        cake design, lighting, DJs, Live music from jazz bands to African acoustics or string quartets.
+                        Each
+                        event is uniquely tailored to turn your party into a memorable celebration.</p>
+                    <p style="margin-top: 150px;">PLEASE COMPLETE THE FORM BELOW FOR CATERING REQUESTS</p>
+                </div>
+                <div class="labels">
+                    <form action="" onsubmit="return validateForm()" method="post">
+                        <label for="fname">First Name*</label>
+                        <input type="text" name="fname" id="fname" size="50">
+                        <label for="lname">Last Name*</label>
+                        <input type="text" name="lname" id="lname" size="50">
+
+                        <p></p>
+                        <label for="email">Email*</label>
+                        <input type="text" name="email" id="email" size="123">
+
+                        <p></p>
+                        <label for="Subject">Subject*</label>
+                        <input type="text" name="Subject" id="Subject" size="123">
+
+                        <p></p>
+                        <label for="Message">Message</label>
+                        <input type="text" name="Message" id="Message" size="123">
+
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
